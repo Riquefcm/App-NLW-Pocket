@@ -10,6 +10,10 @@ const start = async () => {
           value: 'cadastrar',
         },
         {
+          name: 'Listar metas',
+          value: 'cadastrar'
+        },
+        {
           name: 'Sair',
           value: 'sair',
         },
@@ -24,7 +28,10 @@ const start = async () => {
         console.log('vamos listar');
         break;
       case 'sair':
+        console.log('Até a próxima!');
         return;
     }
   }
 };
+
+start();
